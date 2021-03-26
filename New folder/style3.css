@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/*     Sass template   */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*    typography classes*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
+#header p{
+  padding-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px
+}
+#site-logo{
+    width: 100px;
+}
+#header h4{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+#header i{
+  background-color:#11519B;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 5px;
+  
+}
+#header button{
+  border: 2px solid black;
+  border-radius:50px;
+  font-size: 12px;
+  margin-top: 15px
+  
+  
+}
+#icon{
+    margin: auto;
+    
+}
+#nav{
+  background-color:#003133;
+  height: 
+}
+.navbar-expand-lg{
+  padding: 5px;
+  
+}
+
+#nav .nav-link{
+  padding: 0px 15px;
+  text-transform: uppercase;
+}
+
+#banner{
+  background-image:url(media/robot.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#banner2{
+    
+      background-image:url(media/slide1.jpg);
+  min-height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+.banner-content{
+padding-top: 18%;
+
+}
+#banner .top-text{
+    font-family:'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 32px;
+}
+#banner .text{
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+#banner .text-buttom{
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+     
+}
+#banner .shop-now{
+    border: 2px solid blue;
+}#banner .shop-now:hover{
+    border: 2px solid black;
+    color: black;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title b{
+    display: block;
+    flex: 1;
+    height: 1px;
+    opacity: .8;
+    background-color: currentColor;}
+
+.title-main{
+    text-align: center;
+    padding: 7px 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
